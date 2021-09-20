@@ -21,5 +21,6 @@ main{
     position: relative;
     width: 100%;
     height: 1000px;
+    padding-top: 400px;
     background-image: linear-gradient(to bottom, #001b67, #0053a2, #008bcf, #00c5ed, #00ffff);
 }
