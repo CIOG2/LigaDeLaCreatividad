@@ -6,3 +6,20 @@
 html{
     font-size: 62.5%;
 }
+
+main{
+    width: 100%;
+    height: auto;
+}
+.space{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    background-image: linear-gradient(to bottom, #000000, #1e0313, #290728, #2b0d44, #001b67);
+}
+.cielo{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-image: linear-gradient(to bottom, #001b67, #0053a2, #008bcf, #00c5ed, #00ffff);
+}
