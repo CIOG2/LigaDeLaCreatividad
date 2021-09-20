@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     height: 400px;
+    overflow-x: hidden;
 }
 .nube{
     position: absolute;
@@ -34,23 +35,23 @@
 
 .nubePOS1{
 	animation: moveclouds 40s linear infinite;
-	left: -200px;
+	left: -500px;
 }
 .nubePOS2{
 	left: 500px;
 	transform: scale(0.6);
 	opacity: 0.6;	
-	animation: moveclouds 40s linear infinite;
+	animation: moveclouds 30s linear infinite;
 }
 .nubePOS3{
 	left: 170px; 
-    top: 200px;
+    top: 50px;
 	transform: scale(0.8);
 	opacity: 0.8;	
 	animation: moveclouds 40s linear infinite;
 }
 .nubePOS4{
-	left: 470px; 
+	left: 170px; 
     top: 250px;
 	transform: scale(0.75);
 	opacity: 0.75;
@@ -64,7 +65,7 @@
 	animation: moveclouds 40s linear infinite;
 }
 .nubePOS6{
-	left: 950px;
+	left: 1950px;
     top: 200px;
 	transform: scale(0.5);
 	animation: moveclouds 40s linear infinite;
