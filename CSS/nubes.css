@@ -51,14 +51,14 @@
 	animation: moveclouds 40s linear infinite;
 }
 .nubePOS4{
-	left: 170px; 
+	left: -100px; 
     top: 250px;
 	transform: scale(0.75);
 	opacity: 0.75;
 	animation: moveclouds 40s linear infinite;
 }
 .nubePOS5{
-	left: 750px;
+	left: 500px;
     top: 150px;
 	transform: scale(0.8);
 	opacity: 0.8;
