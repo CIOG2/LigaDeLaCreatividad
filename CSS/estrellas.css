@@ -1,3 +1,4 @@
+/*Estilo de las estrellas*/
 .estrella{
     position: absolute;
     display: flex;
@@ -6,7 +7,6 @@
     width: 9px;
     height: 9px;
 }
-
 .linea-estrella1{
     position: absolute;
     width: 10%;
@@ -37,4 +37,167 @@
     background-color: white;
     transform: rotate(90deg);
     border-radius: 20px;
+}
+
+/*Posicion de las estrellas*/
+.StarPOS1{
+    left: 90%;
+    top: 90%;
+}
+
+.StarPOS2{
+    left: 13%;
+    top: 33%;
+}
+.StarPOS3{
+    left: 42%;
+    top: 83%;
+}
+.StarPOS4{
+    left: 60%;
+    top: 78%;
+}
+.StarPOS5{
+    left: 13%;
+    top: 98%;
+}
+.StarPOS6{
+    left: 39%;
+    top: 42%;
+}
+.StarPOS7{
+    left: 20%;
+    top: 49%;
+}
+.StarPOS8{
+    left: 74%;
+    top: 14%;
+}
+.StarPOS9{
+    left: 19%;
+    top: 80%;
+}
+.StarPOS10{
+    left: 32%;
+    top: 15%;
+}
+.StarPOS11{
+    left: 38%;
+    top: 10%;
+}
+.StarPOS12{
+    left: 30%;
+    top: 30%;
+}
+.StarPOS13{
+    left: 11%;
+    top: 7%;
+}
+.StarPOS14{
+    left: 84%;
+    top: 3%;
+}
+.StarPOS15{
+    left: 97%;
+    top: 12%;
+}
+.StarPOS16{
+    left: 30%;
+    top: 66%;
+}
+.StarPOS17{
+    left: 65%;
+    top: 32%;
+}
+.StarPOS18{
+    left: 86%;
+    top: 25%;
+}
+.StarPOS19{
+    left: 95%;
+    top: 56%;
+}
+.StarPOS20{
+    left: 70%;
+    top: 70%;
+}
+.StarPOS21{
+    left: 75%;
+    top: 86%;
+}
+.StarPOS22{
+    left: 48%;
+    top: 23%;
+}
+.StarPOS23{
+    left: 64%;
+    top: 66%;
+}
+.StarPOS24{
+    left: 76%;
+    top: 97%;
+}
+.StarPOS25{
+    left: 87%;
+    top: 38%;
+}
+.StarPOS26{
+    left: 7%;
+    top: 80%;
+}
+.StarPOS27{
+    left: 44%;
+    top: 88%;
+}
+.StarPOS28{
+    left: 34%;
+    top: 87%;
+}
+.StarPOS29{
+    left: 42%;
+    top: 56%;
+}
+.StarPOS30{
+    left: 10%;
+    top: 70%;
+}
+.StarPOS31{
+    left: 48%;
+    top: 5%;
+}
+.StarPOS32{
+    left: 89%;
+    top: 8%;
+}
+.StarPOS33{
+    left: 96%;
+    top: 23%;
+}
+.StarPOS34{
+    left: 65%;
+    top: 47%;
+}
+.StarPOS35{
+    left: 73%;
+    top: 27%;
+}
+.StarPOS36{
+    left: 4%;
+    top: 22%;
+}
+.StarPOS37{
+    left: 43%;
+    top: 76%;
+}
+.StarPOS38{
+    left: 48%;
+    top: 48%;
+}
+.StarPOS39{
+    left: 59%;
+    top: 12%;
+}
+.StarPOS40{
+    left: 12%;
+    top: 12%;
 }
