@@ -1,0 +1,40 @@
+.estrella{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9px;
+    height: 9px;
+}
+
+.linea-estrella1{
+    position: absolute;
+    width: 10%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+.linea-estrella2{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    transform: rotate(-140deg);
+    border-radius: 20px;
+}
+.linea-estrella3{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    transform: rotate(140deg);
+    border-radius: 20px;
+}
+.linea-estrella4{
+    position: absolute;
+    width: 10%;
+    height: 80%;
+    background-color: white;
+    transform: rotate(90deg);
+    border-radius: 20px;
+}
