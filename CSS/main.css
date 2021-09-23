@@ -10,13 +10,16 @@ body{
     width: 100%;
     height: auto;
 }
-
 main{
     width: 100%;
     height: auto;
+    perspective: 8px;
+    perspective-origin: 50%;
 }
 .background{
-
+    width: 100%;
+    height: auto;
+    position: absolute;
 }
 .space{
     position: relative;

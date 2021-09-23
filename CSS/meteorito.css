@@ -1,0 +1,39 @@
+.container__meteoro{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top:40px;
+}
+.meteorito{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #692e07;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.crater{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.craterPOS1{
+    left: 5%;
+    top: 45%;
+}
+.craterPOS2{
+    width: 35%;
+    height: 35%;
+    left: 25%;
+    top: 40%;
+    background-color: black;
+    border-top: 10px solid #692e07;
+    border-right: 8px solid #692e07;
+    border-left: 8px solid #692e07;
+    box-shadow: 0px -5px 3px 1px rgb(60 23 1), inset 3px -6px 0px 5px rgb(60 23 1);
+}
