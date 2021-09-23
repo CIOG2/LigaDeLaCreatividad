@@ -34,7 +34,9 @@ main{
 
 .piso{
     position: relative;
+    display: flex;
+    align-items: flex-end;
     width: 100%;
     height: 800px;
-    background-color: blue;
+    background-color: #00ffff;
 }
