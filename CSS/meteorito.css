@@ -12,7 +12,8 @@
     background-color: #692e07;
     border-radius: 50%;
     border: 1px solid black;
-    box-shadow: inset -3px 4px 0px 16px rgb(84 33 0);}
+    box-shadow: inset -3px 4px 18px 34px rgb(84 33 0);
+}
 
 .crater{
     position: absolute;
