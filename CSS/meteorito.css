@@ -12,13 +12,11 @@
     background-color: #692e07;
     border-radius: 50%;
     border: 1px solid black;
-}
+    box-shadow: inset -3px 4px 0px 16px rgb(84 33 0);}
 
 .crater{
     position: absolute;
-    width: 10%;
-    height: 10%;
-    background-color: #1f0c00;
+    background-color: #2a1000;
     border-radius: 50%;
 }
 
@@ -96,6 +94,8 @@
 .craterPOS8{
     left: 5%;
     top: 45%;
+    width: 10%;
+    height: 10%;
 }
 .craterPOS9{
     left: 30%;
