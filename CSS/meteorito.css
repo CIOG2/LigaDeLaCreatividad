@@ -1,9 +1,12 @@
 .container__meteoro{
+    position: absolute;
     display: flex;
     justify-content: center;
     width: 100%;
-    height: auto;
-    padding-top:40px;
+    height: 100%;
+    transform: translateZ(-150px) scale(15.50);
+    top: calc(3000px - 800px);
+    z-index: 2;
 }
 .meteorito{
     position: absolute;
@@ -13,6 +16,7 @@
     border-radius: 50%;
     border: 1px solid black;
     box-shadow: inset -3px 4px 18px 34px rgb(84 33 0);
+
 }
 
 .crater{
