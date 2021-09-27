@@ -16,11 +16,29 @@
     height: 700px;
 }
 
+.Fuego__animacion_apagar{
+    animation: Apagarfuego;
+    animation-duration: .15s;
+    height: 0;
+}
+
+
+
+
 @keyframes fuego {
     0%{
         height: 0px;
     }
     100%{
         height: 700px;
+    }
+}
+
+@keyframes Apagarfuego {
+    0%{
+        height: 700px;
+    }
+    100%{
+        height: 0px;
     }
 }
