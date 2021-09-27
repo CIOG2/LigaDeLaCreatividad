@@ -13,7 +13,6 @@ observerCielo.observe(Cielo);
 function EncenderFuego(Cielo){
     const cielos = Cielo[0];
     
-
     if (cielos.intersectionRatio >= 0.25) {
         Fuego1.classList.remove("Fuego__animacion_apagar");
         Fuego2.classList.remove("Fuego__animacion_apagar");

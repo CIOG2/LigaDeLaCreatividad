@@ -1,24 +1,30 @@
-.llamas{
-    position: absolute;
+.llamas1{
+    position: relative;
+    width: 580px;
+    height: 0px;
+    left: 230px;
+    bottom: 280px;
+}
+.llamas2{
+    position: relative;
     width: 580px;
     height: 0px;
     bottom: 280px;
-    margin-right: 100px;
-}
-
-.llamas__superficie{
+    right: 350px;
     opacity: 0.2;
+    z-index: 4;
 }
 
 .Fuego__animacion{
     animation: fuego;
-    animation-duration: .5s;
+    animation-duration: 2s;
+    position: relative;
     height: 700px;
 }
 
 .Fuego__animacion_apagar{
     animation: Apagarfuego;
-    animation-duration: .15s;
+    animation-duration: 1s;
     height: 0;
 }
 
@@ -27,18 +33,20 @@
 
 @keyframes fuego {
     0%{
-        height: 0px;
+        bottom: 200px;
+        height: 700px;
     }
     100%{
+        bottom: 280px;
         height: 700px;
     }
 }
 
 @keyframes Apagarfuego {
     0%{
-        height: 700px;
+        opacity: 0.9;
     }
     100%{
-        height: 0px;
+        opacity: 0.1;
     }
 }
