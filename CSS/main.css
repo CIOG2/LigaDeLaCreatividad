@@ -42,7 +42,6 @@ main{
     height: 1000px;
     padding-top: 400px;
     background-image: linear-gradient(to bottom, #001b67, #00428d, #0069ad, #0090c7, #00b8dd);
-    /* background-image: linear-gradient(to bottom, #001b67, #0053a2, #008bcf, #00c5ed, #00ffff); */
 }
 
 .piso{
