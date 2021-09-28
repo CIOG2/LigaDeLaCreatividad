@@ -1,0 +1,25 @@
+.stick__man{
+    position: absolute;
+    width: 300px;
+    height: 230px;
+    left: calc(50% - 150px);
+    bottom: 30px;
+}
+
+.piernas{
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    border-radius: 50% 50% 0 0;
+    border-top: 5px solid black ;
+    border-left: 5px solid black ;
+    border-right: 5px solid black ;
+    left: 37%;
+    top: 55%;
+}
+.zapatos{
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    background-color: beige;
+}
