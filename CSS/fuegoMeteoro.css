@@ -16,6 +16,7 @@
 }
 
 .Fuego__animacion{
+    will-change: animation;
     animation: fuego;
     animation-duration: 2s;
     position: relative;
@@ -23,6 +24,7 @@
 }
 
 .Fuego__animacion_apagar{
+    will-change: animation;
     animation: Apagarfuego;
     animation-duration: 1s;
     height: 0;
@@ -33,10 +35,14 @@
 
 @keyframes fuego {
     0%{
+        will-change: bottom;
+        will-change: height;
         bottom: 200px;
         height: 700px;
     }
     100%{
+        will-change: bottom;
+        will-change: height;
         bottom: 280px;
         height: 700px;
     }
