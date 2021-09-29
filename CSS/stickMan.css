@@ -3,17 +3,71 @@
     width: 300px;
     height: 230px;
     left: calc(50% - 150px);
-    bottom: 30px;
+    bottom: 10px;
 }
-
+/*
+.{
+    position: absolute;
+    width: %;
+    height: %;
+    background-color: black;
+    left: %;
+    top: %;  
+}
+*/
+.mano{
+    position: absolute;
+    width: 14%;
+    height: 12%;
+    background-color: black;
+    border-radius: 70% 100% 60% 80%;
+}
+.mano1{
+    left: 16%;
+    top: 7%;
+    transform: rotate(230deg);  
+}
+.mano2{
+    left: 72%;
+    top: 7%;
+    transform: rotate(100deg);  
+}
+.brazo1{
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    border-radius: 0 0 0 90%;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    left: 25%;
+    top: 10%;  
+}
+.brazo2{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: 0 0 100% 0;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    left: 50%;
+    top: 10%;  
+}
+.torso{
+    position: absolute;
+    width: 3%;
+    height: 30%;
+    background-color: black;
+    left: 50%;
+    top: 25%;  
+}
 .piernas{
     position: absolute;
     width: 30%;
-    height: 100px;
+    height: 40%;
     border-radius: 50% 50% 0 0;
-    border-top: 5px solid black ;
-    border-left: 5px solid black ;
-    border-right: 5px solid black ;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
     left: 37%;
     top: 55%;
 }
@@ -21,5 +75,15 @@
     position: absolute;
     width: 20%;
     height: 15%;
-    background-color: beige;
+    background-color: black;
+    border-radius: 70% 100% 60% 80%;
+}
+.zapato1{
+    left: 19%;
+    top: 87%;    
+}
+.zapato2{
+    left: 65%;
+    top: 88%;
+    transform: rotate(170deg);    
 }
